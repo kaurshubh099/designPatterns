@@ -1,24 +1,22 @@
 package creationalDesignPatterns.FactoryPattern.PlanExample;
 
-import creationalDesignPatterns.FactoryPattern.PlanExample.factoryMethod.GetPlanFactory;
-import creationalDesignPatterns.FactoryPattern.PlanExample.plan.Plan;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import static creationalDesignPatterns.FactoryPattern.PlanExample.factoryMethod.GetPlanFactory.getPlan;
+
 class GenerateBill {
     public static void main(String[] args) throws IOException {
-        GetPlanFactory planFactory = new GetPlanFactory();
 
         System.out.print("Enter the name of plan for which the bill will be generated: ");
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        var br = new BufferedReader(new InputStreamReader(System.in));
 
-        String planName = br.readLine();
+        var planName = br.readLine();
         System.out.print("Enter the number of units for bill will be calculated: ");
-        int units = Integer.parseInt(br.readLine());
+        var units = Integer.parseInt(br.readLine());
 
-        Plan p = planFactory.getPlan(planName);
+        var p = getPlan(planName);
 
         System.out.print("Bill amount for " + planName + " of  " + units + " units is: ");
         p.getRate();

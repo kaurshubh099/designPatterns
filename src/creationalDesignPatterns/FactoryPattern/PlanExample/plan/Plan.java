@@ -1,4 +1,4 @@
-package creationalDesignPatterns.FactoryPattern.plan;
+package creationalDesignPatterns.FactoryPattern.PlanExample.plan;
 
 public abstract class Plan {
     protected double rate;

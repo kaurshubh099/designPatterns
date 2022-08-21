@@ -1,7 +1,7 @@
-package creationalDesignPatterns.FactoryPattern;
+package creationalDesignPatterns.FactoryPattern.PlanExample;
 
-import creationalDesignPatterns.FactoryPattern.factoryMethod.GetPlanFactory;
-import creationalDesignPatterns.FactoryPattern.plan.Plan;
+import creationalDesignPatterns.FactoryPattern.PlanExample.factoryMethod.GetPlanFactory;
+import creationalDesignPatterns.FactoryPattern.PlanExample.plan.Plan;
 
 import java.io.BufferedReader;
 import java.io.IOException;

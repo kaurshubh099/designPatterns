@@ -1,4 +1,4 @@
-package creationalDesignPatterns.FactoryPattern.plan;
+package creationalDesignPatterns.FactoryPattern.PlanExample.plan;
 
 public class CommercialPlan extends Plan {
     public void getRate() {

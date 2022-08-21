@@ -1,9 +1,9 @@
-package creationalDesignPatterns.FactoryPattern.factoryMethod;
+package creationalDesignPatterns.FactoryPattern.PlanExample.factoryMethod;
 
-import creationalDesignPatterns.FactoryPattern.plan.CommercialPlan;
-import creationalDesignPatterns.FactoryPattern.plan.DomesticPlan;
-import creationalDesignPatterns.FactoryPattern.plan.InstitutionalPlan;
-import creationalDesignPatterns.FactoryPattern.plan.Plan;
+import creationalDesignPatterns.FactoryPattern.PlanExample.plan.DomesticPlan;
+import creationalDesignPatterns.FactoryPattern.PlanExample.plan.InstitutionalPlan;
+import creationalDesignPatterns.FactoryPattern.PlanExample.plan.Plan;
+import creationalDesignPatterns.FactoryPattern.PlanExample.plan.CommercialPlan;
 
 public class GetPlanFactory {
 

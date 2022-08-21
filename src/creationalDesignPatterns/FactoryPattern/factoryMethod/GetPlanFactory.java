@@ -1,4 +1,4 @@
-package creationalDesignPatterns.FactoryPattern;
+package creationalDesignPatterns.FactoryPattern.factoryMethod;
 
 import creationalDesignPatterns.FactoryPattern.plan.CommercialPlan;
 import creationalDesignPatterns.FactoryPattern.plan.DomesticPlan;

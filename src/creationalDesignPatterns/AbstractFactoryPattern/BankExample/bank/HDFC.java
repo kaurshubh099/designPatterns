@@ -1,0 +1,13 @@
+package creationalDesignPatterns.AbstractFactoryPattern.BankExample.bank;
+
+public class HDFC implements Bank{
+    @Override
+    public String getBankName() {
+        return "HDFC Bank";
+    }
+
+    @Override
+    public Double rate() {
+        return 10.0;
+    }
+}
